@@ -28,6 +28,8 @@ class ProductManagerTest {
         manager.productAdd(smartphone2);
     }
 
+
+
     @Test
     void shouldSearchBookByNameIfExists() {
         String text = "Остров Сокровищ";
